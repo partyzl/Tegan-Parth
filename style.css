@@ -1,0 +1,52 @@
+body#home-page {
+  background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/193569296.jpg?k=18637c4619db7c6e72ee84b9f742c3863e9c4b18de943ea20117a167359b100e&o=&hp=1");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 100%;
+  text-align: center;
+}
+
+#book-box {
+  margin-top: 50%;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.row {
+  padding: 10px;
+}
+
+#map {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+@media only screen and(max-width:990px) {
+  .col-lg-4 {
+    text-align: center;
+  }
+}
+
+#location-body {
+  margin-top: 40px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(163, 40, 40, 0.6);
+  color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
