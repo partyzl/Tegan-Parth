@@ -1,15 +1,22 @@
+body,
+html {
+  height: 100%;
+}
+
 body#home-page {
   background-image: url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/193569296.jpg?k=18637c4619db7c6e72ee84b9f742c3863e9c4b18de943ea20117a167359b100e&o=&hp=1");
-  height: 400px;
+
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: auto 100%;
-  text-align: center;
+  background-size: cover;
+  height: 100%;
 }
 
 #book-box {
   padding: 10px;
-  margin-top: 25%;
+
+  top: 40%;
+  position: fixed;
+  width: 100%;
 }
 
 h1 {
