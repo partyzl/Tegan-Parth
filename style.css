@@ -34,16 +34,24 @@ h1 {
   border: 1px solid black;
   margin-right: 10px;
   margin-top: 10px;
+  object-fit: cover;
 }
 
 @media only screen and(max-width:990px) {
   .col-lg-4 {
     text-align: center;
   }
+  #map{
+    justify-content: center;
+    margin-right: 20px;
+  }
 }
 
 #location-body {
   margin-top: 40px;
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+  
 }
 
 .footer {
@@ -57,3 +65,9 @@ h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
+
+.location-container{
+  padding: 10px;
+}
+
+
